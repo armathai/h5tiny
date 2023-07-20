@@ -7,6 +7,9 @@
  * Thank you all, you're awesome!
  */
 
+/**
+ * @type Class
+ */
 var _Group = function () {
     this._tweens = {};
     this._tweensAddedDuringUpdate = {};

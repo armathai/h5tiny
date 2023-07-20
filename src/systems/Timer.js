@@ -1,5 +1,8 @@
 var noop = function () {};
 
+/**
+ * @type Class
+ */
 var Timer = function (autoStart, autoRemove, game, cb, ctx, delay, loop, n, oncomplete) {
     this.game = game;
     this.cb = cb || noop;
