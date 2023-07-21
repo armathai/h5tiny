@@ -3,6 +3,7 @@
   "version": "2.2.3",
   "description": "Fast and tiny JavaScript library for HTML5 game and creatives developing.",
   "main": "./build/tiny.js",
+  "types": "index.d.ts",
   "files": [
     "src",
     "build",
