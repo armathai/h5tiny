@@ -16,6 +16,10 @@
     "outDir": "dist",
     // go to js file when using IDE functions like
     // "Go to Definition" in VSCode
-    "declarationMap": true
+    "declarationMap": true,
+    // Enables the generation of sourcemap files
+    "sourceMap": true,
+    // Specify the location where a debugger should locate TypeScript files instead of relative source locations.
+    "sourceRoot": "src"
   }
 }

@@ -19,7 +19,6 @@
     "url": "https://github.com/peter-hutsul/h5tiny"
   },
   "scripts": {
-    "postinstall": "npx npm-dts generate",
     "serve": "webpack-dev-server --port 3000 --open --live-reload --mode development --watch-files examples --static-directory examples",
     "watch": "webpack --config webpack.dev.js --watch",
     "dev": "start npm run watch && npm run serve",
