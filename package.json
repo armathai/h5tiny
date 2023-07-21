@@ -10,6 +10,7 @@
     "plugins",
     "examples/js",
     "examples/jsm",
+    "index.d.ts",
     "README.md"
   ],
   "directories": {
